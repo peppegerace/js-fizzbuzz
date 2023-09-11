@@ -1,13 +1,19 @@
 :root {
   --sfondo: #083b4c;
   --box-color: #1389b2;
-  --multiplo-tre: #0cd6a1;
-  --multiplo-cinque: #ffd166;
-  --multiplo: #f0466f;
+  --fizz-color: #0cd6a1;
+  --buzz-color: #ffd166;
+  --fizzbuzz-color: #f0466f;
 }
 
 body {
   background-color: var(--sfondo);
+  color: white;
+}
+
+h1 {
+  font-size: 6rem;
+  margin-bottom: 2rem;
 }
 
 .box {
@@ -16,8 +22,20 @@ body {
   align-items: center;
   font-size: 25px;
   background-color: var(--box-color);
-  width: 100px;
-  height: 100px;
-  color: white;
+  width: 150px;
+  height: 150px;
+  color: black;
   margin: 10px;
+}
+
+.bg-fizz {
+  background-color: var(--fizz-color);
+}
+
+.bg-buzz {
+  background-color: var(--buzz-color);
+}
+
+.bg-fizzbuzz {
+  background-color: var(--fizzbuzz-color);
 }
