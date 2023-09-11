@@ -1,0 +1,23 @@
+:root {
+  --sfondo: #083b4c;
+  --box-color: #1389b2;
+  --multiplo-tre: #0cd6a1;
+  --multiplo-cinque: #ffd166;
+  --multiplo: #f0466f;
+}
+
+body {
+  background-color: var(--sfondo);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: var(--box-color);
+  width: 100px;
+  height: 100px;
+  color: white;
+  margin: 10px;
+}
